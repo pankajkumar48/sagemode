@@ -5,8 +5,12 @@ const EmptyState = () => {
     <div className="flex flex-col items-center justify-center h-[calc(100vh-73px)] bg-gray-50">
       <div className="w-96 h-64 relative mb-8">
         {/* Placeholder for the illustration */}
-        <div className="w-full h-full bg-purple-100 rounded-lg flex items-center justify-center">
-          <span className="text-purple-600">Illustration Placeholder</span>
+        <div className="w-full h-full rounded-lg flex items-center justify-center">
+          <img 
+            src="/welcome_illustration.png" 
+            alt="Descriptive text"
+            className="w-auto h-auto" // Adjust size as needed
+          />
         </div>
       </div>
       <h2 className="text-xl font-semibold text-gray-900 mb-2">
