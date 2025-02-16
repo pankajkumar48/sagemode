@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 const EmptyState = () => {
   return (
     <div className="flex flex-col items-center justify-center h-[calc(100vh-73px)] bg-gray-50">
